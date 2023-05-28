@@ -10,6 +10,10 @@ a {
     text-decoration: none;
 }
 
+html, body{
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -176,7 +180,7 @@ body {
 }
 
 .guides {
-    margin-top: 174px;
+    padding-top: 174px;
 }
 
 .guides .sub-title::before {
@@ -352,7 +356,7 @@ body {
 }
 
 .stats {
-    margin-top: 75px;
+    padding-top: 75px;
     padding: 50px 0;
 }
 .stats .content {
